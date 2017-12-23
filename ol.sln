@@ -3,8 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{696F8347-B4FD-451A-83C5-750781EC33CB}"
+	ProjectSection(SolutionItems) = preProject
+		source\ol.html = source\ol.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{526E7744-874A-41FB-800C-4538337F5EAA}"
+	ProjectSection(SolutionItems) = preProject
+		source\css\ol.css = source\css\ol.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "script", "script", "{C4EF0BC3-C2F6-4150-8C10-47BD42D33EF7}"
+	ProjectSection(SolutionItems) = preProject
+		source\script\bdmap.js = source\script\bdmap.js
+		source\script\ol-debug.js = source\script\ol-debug.js
+		source\script\ol.js = source\script\ol.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{526E7744-874A-41FB-800C-4538337F5EAA} = {696F8347-B4FD-451A-83C5-750781EC33CB}
+		{C4EF0BC3-C2F6-4150-8C10-47BD42D33EF7} = {696F8347-B4FD-451A-83C5-750781EC33CB}
 	EndGlobalSection
 EndGlobal
